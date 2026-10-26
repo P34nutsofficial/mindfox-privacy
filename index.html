@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#f5f3ed" />
+    <meta name="description" content="Datenschutzerklärung für das Spiel MindFox. Informationen zu lokal gespeicherten Daten, WLAN-Mehrspieler, Google Mobile Ads und Google Play Billing." />
+    <title>Datenschutzerklärung – MindFox</title>
+    <link rel="canonical" href="https://p34nutsofficial.github.io/mindfox-privacy/" />
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #19352f;
+        --muted: #526560;
+        --paper: #f5f3ed;
+        --surface: #fffefa;
+        --line: #d9dfd8;
+        --accent: #df6845;
+        --green-soft: #e6eee8;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: var(--paper); color: var(--ink); line-height: 1.68; }
+      a { color: #205d50; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+      a:hover { color: #a64229; }
+      a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 3px; }
+      .topline { height: 8px; background: linear-gradient(90deg, var(--accent) 0 18%, #284d43 18% 100%); }
+      .page { width: min(100% - 36px, 980px); margin: 0 auto; padding: 42px 0 72px; }
+      header { padding: 22px 0 34px; border-bottom: 1px solid var(--line); }
+      .brand { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 36px; font-weight: 800; letter-spacing: -.04em; font-size: 1.1rem; }
+      .brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 13px 13px 13px 4px; background: var(--ink); color: #fffefa; font-weight: 800; letter-spacing: -.05em; }
+      .eyebrow { margin: 0 0 8px; color: var(--accent); font-size: .78rem; font-weight: 800; text-transform: uppercase; letter-spacing: .15em; }
+      h1 { max-width: 780px; margin: 0; font-size: clamp(2.25rem, 6vw, 4.1rem); line-height: 1.04; letter-spacing: -.055em; }
+      .lede { max-width: 700px; margin: 18px 0 0; color: var(--muted); font-size: 1.1rem; }
+      .date { margin-top: 22px; color: var(--muted); font-size: .92rem; }
+      .layout { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 42px; padding-top: 36px; align-items: start; }
+      nav { position: sticky; top: 20px; padding: 18px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+      nav strong { display: block; margin-bottom: 10px; font-size: .86rem; }
+      nav ol { margin: 0; padding-left: 18px; color: var(--muted); font-size: .82rem; }
+      nav li { padding: 3px 0; }
+      nav a { text-decoration: none; }
+      main { min-width: 0; }
+      section { padding: 0 0 29px; margin: 0 0 29px; border-bottom: 1px solid var(--line); scroll-margin-top: 24px; }
+      section:last-child { border: 0; }
+      h2 { margin: 0 0 12px; font-size: 1.43rem; letter-spacing: -.025em; line-height: 1.25; }
+      h3 { margin: 20px 0 6px; font-size: 1.03rem; }
+      p { margin: 0 0 12px; }
+      ul { margin: 8px 0 14px; padding-left: 22px; }
+      li { padding: 2px 0; }
+      .callout { padding: 15px 18px; margin: 16px 0; border-radius: 9px; background: var(--green-soft); }
+      .contact { padding: 20px; border-radius: 12px; background: var(--ink); color: #f8f7f1; }
+      .contact h2 { color: #fffefa; }
+      .contact a { color: #ffd0b6; }
+      .contact address { font-style: normal; }
+      .small { color: var(--muted); font-size: .9rem; }
+      footer { margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; }
+      @media (max-width: 720px) {
+        .page { width: min(100% - 28px, 640px); padding-top: 24px; }
+        header { padding-top: 14px; }
+        .brand { margin-bottom: 28px; }
+        .layout { grid-template-columns: 1fr; gap: 24px; padding-top: 25px; }
+        nav { position: static; }
+        nav ol { columns: 2; column-gap: 24px; }
+      }
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    </style>
+  </head>
+  <body>
+    <div class="topline" aria-hidden="true"></div>
+    <div class="page">
+      <header>
+        <div class="brand" aria-label="MindFox"><span class="brand-mark" aria-hidden="true">MF</span><span>MindFox</span></div>
+        <p class="eyebrow">Datenschutz</p>
+        <h1>Datenschutzerklärung für MindFox</h1>
+        <p class="lede">Hier steht, welche Informationen MindFox auf deinem Gerät verarbeitet, was beim Spielen im lokalen WLAN übertragen wird und welche Daten Google-Dienste im Zusammenhang mit Werbung und Käufen verarbeiten.</p>
+        <p class="date"><strong>Stand:</strong> 26. Oktober 2026</p>
+      </header>
+
+      <div class="layout">
+        <nav aria-label="Inhaltsübersicht">
+          <strong>Auf dieser Seite</strong>
+          <ol>
+            <li><a href="#verantwortlich">Verantwortlicher</a></li>
+            <li><a href="#umfang">Umfang</a></li>
+            <li><a href="#geraet">Daten auf dem Gerät</a></li>
+            <li><a href="#wlan">Lokales WLAN-Spiel</a></li>
+            <li><a href="#werbung">Werbung und Einwilligung</a></li>
+            <li><a href="#kaeufe">Käufe</a></li>
+            <li><a href="#speicherung">Speicherung und Löschung</a></li>
+            <li><a href="#sicherheit">Sicherheit</a></li>
+            <li><a href="#rechte">Deine Rechte</a></li>
+            <li><a href="#aenderungen">Änderungen</a></li>
+            <li><a href="#website">Aufruf dieser Website</a></li>
+          </ol>
+        </nav>
+
+        <main id="inhalt">
+          <section id="verantwortlich" class="contact">
+            <h2>1. Verantwortlicher und Kontakt</h2>
+            <p>Verantwortlich für MindFox und die in dieser Erklärung beschriebenen eigenen Verarbeitungen ist:</p>
+            <address>
+              <strong>P34nuts – Frank Horn</strong><br />
+              Hindenburgstraße 20<br />
+              88459 Tannheim<br />
+              Deutschland
+            </address>
+            <p>Fragen zum Datenschutz oder Anfragen zu deinen Rechten kannst du an diese Postanschrift richten.</p>
+          </section>
+
+          <section id="umfang">
+            <h2>2. Welche Daten MindFox verarbeitet</h2>
+            <p>MindFox ist ein Quiz- und Partyspiel. Die App richtet kein Benutzerkonto beim Herausgeber ein und betreibt keinen zentralen Internetdienst zur Speicherung von Spielprofilen oder Spielverläufen. Im Mehrspieler-Modus kann ein Gerät im lokalen WLAN als Spielhost dienen und Rundendaten an die beteiligten Geräte weiterleiten. Die App speichert bestimmte Einstellungen und Spielinformationen im privaten App-Speicher des jeweiligen Geräts.</p>
+            <p>Auf Android verwendet MindFox außerdem Google Mobile Ads für Werbeanzeigen und Google Play Billing für optionale Themenkäufe. Diese Google-Dienste verarbeiten Informationen nach ihren eigenen Bedingungen und Datenschutzhinweisen. Die Kategorien, Zwecke und Empfänger sind in den folgenden Abschnitten beschrieben.</p>
+          </section>
+
+          <section id="geraet">
+            <h2>3. Lokal auf deinem Gerät gespeicherte Daten</h2>
+            <p>Je nach genutzter Funktion kann MindFox folgende Informationen im privaten App-Speicher auf deinem Gerät ablegen:</p>
+            <ul>
+              <li>dein selbst gewählter Spielername, eine zufällig erzeugte Spielerkennung und ein Wiederverbindungs-Token;</li>
+              <li>Avatar-Auswahl und Darstellungseinstellungen;</li>
+              <li>zuletzt verwendete Host-Adresse, Port und Raumcode für eine erneute Verbindung;</li>
+              <li>Fragenkennungen, damit bereits gespielte Fragen im Spielverlauf berücksichtigt werden;</li>
+              <li>deine lokale Einstellung für reduzierte Bewegung;</li>
+              <li>Produktkennungen der Themen, die über Google Play freigeschaltet wurden;</li>
+              <li>auf Android die durch Google UMP lokal gespeicherten Werbe- und Datenschutzentscheidungen beziehungsweise Consent-Informationen.</li>
+            </ul>
+            <p>Diese Angaben dienen den jeweiligen Spielfunktionen, zum Beispiel einer Wiederverbindung, der Darstellung deines Avatars, der Vermeidung wiederholter Fragen und dem Wiederherstellen lokal bekannter Themenfreischaltungen. MindFox übermittelt sie nicht an einen eigenen Kontodienst oder eine zentrale Spielerdatenbank.</p>
+          </section>
+
+          <section id="wlan">
+            <h2>4. Lokales WLAN und Mehrspieler</h2>
+            <p>Wenn du die automatische Raumsuche oder den Mehrspieler-Modus verwendest, sucht das Gerät im lokalen Netzwerk nach einem MindFox-Spielhost. Dazu nutzt die App UDP zur Raumerkennung und eine WebSocket-Verbindung zum Host. Beim Beitritt übermittelt die App an diesen Host je nach Spielablauf deine Spielerkennung, deinen Namen, Raumcode und Wiederverbindungs-Token sowie Avatar- und Bereitschaftsinformationen. Während der Runde können außerdem deine Spielbeiträge, etwa Bluff-Texte, Antworten, Stimmen, Reaktionen und spielstandsbezogene Aktionen, an den Host und die Mitspielenden übertragen werden.</p>
+            <p>Die Netzwerkadresse deines Geräts ist für die Verbindung im lokalen WLAN erforderlich und für andere Geräte im selben Netzwerk beziehungsweise den Host technisch erkennbar. Der Spielverkehr läuft zwischen den Geräten im lokalen Netzwerk; MindFox sendet diese Mehrspieler-Inhalte nicht an einen vom Herausgeber betriebenen Internetserver.</p>
+            <div class="callout"><strong>Hinweis zum lokalen Netzwerk:</strong> Die geprüfte Verbindung verwendet derzeit <code>ws://</code> und ist nicht zusätzlich durch MindFox verschlüsselt. Personen mit Zugriff auf dasselbe WLAN können Netzwerkverkehr unter Umständen beobachten. Verwende für private Runden ein vertrauenswürdiges Netzwerk und teile keine vertraulichen oder besonders sensiblen Angaben als Spielernamen oder Spielbeitrag.</div>
+          </section>
+
+          <section id="werbung">
+            <h2>5. Google Mobile Ads und Werbeeinwilligung</h2>
+            <p>Die Android-Version bindet das Google Mobile Ads SDK ein und kann Banner- und Zwischenanzeigen anzeigen. Wenn eine Anzeige angefordert wird, kann das SDK nach Googles Angaben bestimmte Daten für Werbeauslieferung, Personalisierung, Messung, Analytik und Betrugsprävention erheben oder weitergeben. Dazu zählen:</p>
+            <ul>
+              <li>die IP-Adresse; daraus kann Google den allgemeinen Standort ableiten;</li>
+              <li>Interaktionen mit der App, zum Beispiel App-Start, Tippen und Anzeigenaufrufe;</li>
+              <li>Diagnose- und Leistungsdaten, etwa Startzeit, Absturz- beziehungsweise Hängerate und Energieverbrauch;</li>
+              <li>Geräte- und Kennungen, insbesondere die Android-Werbe-ID und die App-Set-ID sowie gegebenenfalls weitere Kennungen.</li>
+            </ul>
+            <p>Empfänger dieser SDK-Daten sind Google und die von Google für Bereitstellung, Auswertung und Missbrauchsvermeidung eingesetzten Dienste beziehungsweise Partner. MindFox erhält daraus keine eigenen Werbeprofile und betreibt keine eigene Werbe- oder Analyseplattform. Die Übermittlung durch das Google Mobile Ads SDK erfolgt laut Google verschlüsselt per TLS. Die Android-Einstellungen bieten Möglichkeiten, die Werbe-ID zurückzusetzen oder zu löschen.</p>
+            <p>Vor Anzeigenanforderungen aktualisiert MindFox bei jedem App-Start über Googles User Messaging Platform (UMP) die Einwilligungsinformationen. Wenn Google UMP eine Entscheidung verlangt, zeigt MindFox das bereitgestellte Formular an. Anzeigen werden nur angefordert, wenn eine erfolgreiche Aktualisierung einen von UMP erlaubten Status meldet; bei einem fehlgeschlagenen Abruf, unbekanntem Status oder weiterhin erforderlicher Entscheidung bleiben Anzeigen aus. Wenn UMP eine Datenschutzoption verlangt, bietet MindFox auf dem Startbildschirm einen Einstieg zum Verwalten der Optionen. UMP speichert Consent-Informationen lokal im App-Datenbereich; Google verarbeitet die für Consent-Nachrichten und Anzeigen erforderlichen Informationen nach den eigenen Datenschutzhinweisen. Die angezeigten Optionen und die Verarbeitung durch Google richten sich nach deiner Region und deiner Auswahl.</p>
+            <p>Weitere Informationen findest du in Googles <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" target="_blank" rel="noopener noreferrer">Datenoffenlegung zum Google Mobile Ads SDK</a>, den <a href="https://developers.google.com/admob/android/privacy" target="_blank" rel="noopener noreferrer">Informationen zur Einwilligungsverwaltung (UMP)</a> und der <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google-Datenschutzerklärung</a>.</p>
+          </section>
+
+          <section id="kaeufe">
+            <h2>6. Google Play Billing und Themenkäufe</h2>
+            <p>Optionale Themenkäufe werden über Google Play Billing angeboten. Google Play führt den Kaufvorgang und die Zahlungsabwicklung durch. Zahlungsdaten wie Karten- oder Kontodaten werden von Google verarbeitet; MindFox erhält sie nicht.</p>
+            <p>Die App fragt Google Play nach Produktdetails und vorhandenen Käufen. Google Play Billing kann der App zu einem Kauf Produktkennungen und ein Kauf-Token bereitstellen. MindFox verwendet die Kaufantwort, um den Kauf zu bestätigen und das Thema freizuschalten. Die App speichert lokal die Kennungen freigeschalteter Themen, nicht die Zahlungsdaten. MindFox hat dafür keinen eigenen Kauf- oder Kontenserver. Käufe können bei einer späteren Nutzung erneut mit Google Play abgefragt werden.</p>
+            <p>Die Verarbeitung von Zahlungs- und Transaktionsdaten durch Google richtet sich nach den Informationen und Einstellungen deines Google-Play-Kontos sowie Googles Datenschutzhinweisen.</p>
+          </section>
+
+          <section id="speicherung">
+            <h2>7. Speicherdauer und Löschung</h2>
+            <p>Spiel-, Einstellungs- und UMP-Consent-Informationen verbleiben im privaten App-Speicher auf deinem Gerät, bis du die App-Daten in den Android-Einstellungen löschst oder MindFox entfernst. Eine Gerätesicherung, die du über Android oder dein Konto aktiviert hast, unterliegt den dafür gewählten Systemeinstellungen. MindFox betreibt keine zentrale Kopie dieser lokalen Daten. Das Löschen lokaler Freischaltungskennungen löscht keinen Kauf bei Google Play; ein gültiger Kauf kann bei einer späteren Nutzung erneut über Google Play erkannt werden.</p>
+            <p>MindFox führt keine zentrale Spielerdatenbank und hat keine Spielerkonten, die gelöscht werden müssten. Für Daten, die Google im Rahmen von Anzeigen oder Käufen verarbeitet, gelten Googles eigene Speicher- und Löschregeln. Bitte nutze dafür gegebenenfalls die Datenschutz- und Kontoeinstellungen von Google.</p>
+          </section>
+
+          <section id="sicherheit">
+            <h2>8. Sicherheit</h2>
+            <p>Lokale Spiel- und Einstellungsdaten werden im privaten Speicherbereich der App auf deinem Gerät abgelegt. MindFox betreibt für diese Daten keinen zentralen Speicher. Die lokale WLAN-Spielverbindung ist derzeit nicht zusätzlich verschlüsselt; bitte beachte den Hinweis im Abschnitt „Lokales WLAN und Mehrspieler“.</p>
+            <p>Google erklärt, dass Daten des Google Mobile Ads SDK bei der Übertragung mit TLS verschlüsselt werden. Die Sicherheitsmaßnahmen für Google Play Billing und weitere Google-Dienste beschreibt Google in den eigenen Unterlagen.</p>
+          </section>
+
+          <section id="rechte">
+            <h2>9. Deine Datenschutzrechte</h2>
+            <p>Soweit die Datenschutz-Grundverordnung auf eine Verarbeitung anwendbar ist, kannst du im gesetzlichen Umfang Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit verlangen. Du kannst einer Verarbeitung widersprechen, wenn die gesetzlichen Voraussetzungen dafür vorliegen, und eine erteilte Einwilligung für die Zukunft widerrufen. Außerdem kannst du dich bei einer Datenschutzaufsichtsbehörde beschweren.</p>
+            <p>MindFox hat kein eigenes Nutzerkonto und keine zentrale Spielerdatenbank. Lokale Daten kannst du durch Löschen der App-Daten entfernen. Deine Auswahl zu Anzeigen und Datenschutz kannst du, sofern UMP es verlangt, über den Einstieg auf dem Startbildschirm erneut öffnen. Für Daten, die Google als Anbieter der Anzeigen- oder Kaufdienste verarbeitet, kannst du dich an Google wenden oder die von Google bereitgestellten Datenschutzwerkzeuge verwenden. Für Anfragen an den Verantwortlichen nutze bitte die oben angegebene Postanschrift.</p>
+          </section>
+
+          <section id="aenderungen">
+            <h2>10. Änderungen dieser Erklärung</h2>
+            <p>Wenn MindFox neue Funktionen oder Dienste erhält oder sich die Datenverarbeitung ändert, wird diese Erklärung angepasst. Maßgeblich ist das jeweils angegebene Aktualisierungsdatum.</p>
+          </section>
+
+          <section id="website">
+            <h2>11. Aufruf dieser Website</h2>
+            <p>Diese statische Seite selbst enthält keine Analyse- oder Werbeskripte und setzt keine eigenen Cookies. GitHub Pages protokolliert nach eigenen Angaben bei Seitenaufrufen IP-Adressen zu Sicherheitszwecken. GitHub ist der Hostinganbieter und verarbeitet technische Zugriffsdaten nach den eigenen Regeln. Weitere Informationen stehen in der <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection" target="_blank" rel="noopener noreferrer">GitHub-Pages-Dokumentation zur Datenerhebung</a> und der <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub-Datenschutzerklärung</a>.</p>
+          </section>
+
+          <footer>
+            <p><strong>MindFox</strong> · Datenschutzerklärung · Stand 26. Oktober 2026</p>
+          </footer>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
